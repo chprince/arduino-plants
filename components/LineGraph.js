@@ -134,7 +134,7 @@ export default function LineGraph({id, dataset, labels, name, color}) {
   return (
     <div className="chart" style={{width: "100%"}}>
       <h2>Chart: {name}</h2>
-      <canvas id="myChart" ref={canvasEl} height="100" style={{height: "40vh", width: "100%"}} />
+      <canvas id="myChart" ref={canvasEl} height="400" style={{height: "40vh", width: "100%"}} />
     </div>
   );
 }
